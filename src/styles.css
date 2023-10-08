@@ -28,7 +28,6 @@
   
   p {
     padding: 20px;
-  
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
@@ -109,9 +108,48 @@
     border: 6px solid rgba(215, 213, 221, 0.6);
     border-radius: 6px;
   }
-  #me {
-    width: 150px;
-  }
+ 
   img:hover{
     cursor: pointer;
   }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+    .primary-link {
+      display: block;
+      text-align: center;
+    margin:0 auto;
+    width:200px
+    }
+
+.custom-img{
+  display: flex;
+  align-self:center;
+  height:auto;
+  max-width: 300px;
+  margin: 0 auto;
+}
+  }
+  .custom-img{
+    height: 200px;
+  }
+#img-2{
+  height: 200px;
+}
+  .row{
+    display: flex;
+  }
+  
+
